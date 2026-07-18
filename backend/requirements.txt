@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+pgvector
+insightface
+onnxruntime
+opencv-python-headless
+python-multipart
+pydantic
+numpy
