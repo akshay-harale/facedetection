@@ -20,6 +20,15 @@ services:
       - db
     volumes:
       - ./backend:/app
+      - ./images:/app/images
+
+  camera_worker:
+    build: ./camera_worker
+    environment:
+      - BACKEND_URL=http://backend:8000
+      - RTSP_URL=0 # Change to rtsp://... in production
+    depends_on:
+      - backend
 
   frontend:
     build:

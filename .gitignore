@@ -124,6 +124,7 @@ ENV/
 env/
 /backend/env/
 /backend/ENV/
+/camera_worker/venv
 
 # Testing / Coverage
 .tox/
@@ -147,3 +148,4 @@ coverage.xml
 
 # Jupyter Notebook
 .ipynb_checkpoints
+images/
